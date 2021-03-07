@@ -1,0 +1,22 @@
+{
+  "name": "Movie-QL",
+  "version": "1.0.0",
+  "description": "Movie API with Graph QL",
+  "main": "index.js",
+  "repository": "https://github.com/keonoh00/Movie-QL",
+  "author": "Keon Oh Kim<keonoh00@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}

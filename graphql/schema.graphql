@@ -1,0 +1,24 @@
+type Movies {
+    id: Int!,
+    title: String!,
+    rating: Float!,
+    summary: String,
+    language: String,
+    medium_cover_image: String
+}
+
+type Description {
+    id: Int!,
+    title: String!,
+    rating: Float,
+    genres: [String],
+    download_count: Int,
+    description_full: String,
+    medium_cover_image: String
+}
+
+type Query {
+    movies(limit: Int, rating: Float): [Movies]!,
+    description(id: Int!): Description!,
+    suggestion(id: Int!): [Movies]!
+}
