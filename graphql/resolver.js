@@ -1,4 +1,4 @@
-import { getMovies, getDescription, getSuggestion } from "./db";
+import { getMovies, getDescription, getSuggestion } from "./db.js";
 
 
 const resolvers = {

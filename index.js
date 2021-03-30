@@ -1,5 +1,5 @@
 import { GraphQLServer } from "graphql-yoga";
-import resolvers from "./graphql/resolver";
+import resolvers from "./graphql/resolver.js";
 
 // schema.graphql --> this is declaring what you will return to the user
 // query defines what is required and type of returning element

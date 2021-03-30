@@ -1,9 +1,9 @@
 {
-  "name": "Movie-QL",
+  "name": "MovieAPI_GraphQL",
   "version": "1.0.0",
   "description": "Movie API with Graph QL",
   "main": "index.js",
-  "repository": "https://github.com/keonoh00/Movie-QL",
+  "repository": "https://github.com/keonoh00/MovieAPI_GraphQL",
   "author": "Keon Oh Kim<keonoh00@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -18,5 +18,6 @@
     "babel-node": "^0.0.1-security",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1"
-  }
+  },
+  "type": "module"
 }
